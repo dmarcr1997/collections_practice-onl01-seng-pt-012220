@@ -56,3 +56,7 @@ def find_a(string)
   end
   a_collection
 end
+
+def sum_array(int_ary)
+  sum = 0
+  
