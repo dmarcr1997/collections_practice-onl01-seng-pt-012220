@@ -47,6 +47,6 @@ def kesha_maker(str_ary)
   end 
 end
 
-def find_(string)
-  string.collect{ |s|  s.start_with?("a")}
+def find_a(string)
+  string.find{ |s|  s.start_with?("a")}
 end
