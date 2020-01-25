@@ -65,6 +65,7 @@ def add_s(word_ary)
   word_ary.each_with_index.collect do |element, index|
     if (index != 1)
       element << "s"
-    end
+    else
+      element = element
   end
 end
