@@ -58,5 +58,5 @@ def find_a(string)
 end
 
 def sum_array(int_ary)
-  sum = 0
+  int_ary
   
