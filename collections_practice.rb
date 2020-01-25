@@ -52,4 +52,7 @@ def find_a(string)
   string.collect do |s| 
     if s.start_with?("a")
       a_collection << s
+    end
+  end
+  a_collection
 end
