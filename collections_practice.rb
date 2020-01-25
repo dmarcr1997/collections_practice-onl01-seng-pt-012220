@@ -60,4 +60,11 @@ end
 def sum_array(int_ary)
   int_ary.inject (0) {|result, obj| result + obj}
 end
-  
+
+def add_s(word_ary)
+  word_ary.each_with_index.collect do |element, index|
+    if (index != 1)
+      element << "s"
+    end
+  end
+end
