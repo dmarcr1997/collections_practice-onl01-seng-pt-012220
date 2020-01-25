@@ -67,5 +67,6 @@ def add_s(word_ary)
       element << "s"
     else
       element = element
+    end
   end
 end
