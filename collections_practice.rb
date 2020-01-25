@@ -58,5 +58,6 @@ def find_a(string)
 end
 
 def sum_array(int_ary)
-  int_ary.inject (0) {||}
+  int_ary.inject (0) {|result, obj| result + obj}
+end
   
