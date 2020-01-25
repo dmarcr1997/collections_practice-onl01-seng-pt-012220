@@ -49,9 +49,5 @@ end
 
 def find_(string)
   a_collection = []
-  string.find do |s|
-    if s.start_with?("a")
-      a_collection << s
-    end
-  end
+  string.find{ |s|  s.start_with?("a")}
 end
